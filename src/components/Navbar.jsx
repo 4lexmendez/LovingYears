@@ -19,27 +19,27 @@ function Navbar({title}) {
 
       </div>
       
-      <div className="flex-1 px-2 mx-2">
-          <div className='flex justify-end'>
-              <Link to='/' className='btn btn-outline btn-success btn-xs rounded-btn' >
+      <div className="flex-1 px-2 mx-2 gap-10">
+          <div className='flex justify-end gap-2'>
+              <Link to='/' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   Home
               </Link>
-              <Link to='/seventeen' className='btn btn-outline btn-success btn-xs rounded-btn' >
+              <Link to='/seventeen' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   17'
               </Link>
-              <Link to='/eighteen' className='btn btn-outline btn-success btn-xs rounded-btn' >
+              <Link to='/eighteen' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   18'
               </Link>
-              <Link to='/nineteen' className='btn btn-outline btn-success btn-xs rounded-btn' >
+              <Link to='/nineteen' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   19'
               </Link>
-              <Link to='/twenty' className='btn btn-outline btn-success btn-xs rounded-btn' >
+              <Link to='/twenty' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   20'
               </Link>
-              <Link to='/twentyone' className='btn btn-outline btn-success btn-xs rounded-btn' >
+              <Link to='/twentyone' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   21'
               </Link>
-              <Link to='/twentytwo' className='btn btn-outline btn-success btn-xs rounded-btn' >
+              <Link to='/twentytwo' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   22'
               </Link>
               
