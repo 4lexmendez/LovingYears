@@ -26,6 +26,8 @@ function App() {
        <div className='flex flex-col justify-between
        h-screen'>
          <Navbar />
+         <Soundbar />
+         
          
          
          
@@ -47,15 +49,14 @@ function App() {
 
             
            </Routes>
-           <Soundbar />
+           
            </main>
            <Footer />
            
 
-      
-      
-      </div>
 
+           
+      </div>
     </Router>
    
   )

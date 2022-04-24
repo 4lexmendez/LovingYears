@@ -1,6 +1,7 @@
 import {FcLike} from 'react-icons/fc'
 import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
+import Soundbar from './Soundbar'
 
 
 
@@ -16,6 +17,7 @@ function Navbar({title}) {
           {title}
           </Link>
           <FcLike className='inline pr-2 text-3xl' />
+          
 
       </div>
       
@@ -42,16 +44,18 @@ function Navbar({title}) {
               <Link to='/twentytwo' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   22'
               </Link>
-              <Link to='/test' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  test
-              </Link>
+              
+              
               
               
           </div>
+          
 
       </div>
+      
 
       </div>
+      
       
 
   </nav>
