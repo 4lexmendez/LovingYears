@@ -11,7 +11,7 @@ import Test from './pages/Test'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Soundbar from './components/Soundbar'
-
+import "./styles.css"
 
 
 
@@ -22,11 +22,15 @@ function App() {
     <Router>
      
       
-      
+     
        <div className='flex flex-col justify-between
        h-screen'>
          <Navbar />
-         <Soundbar />
+         <div className="soundBar">
+           <Soundbar />
+
+           </div>
+          
          
          
          
@@ -49,6 +53,7 @@ function App() {
 
             
            </Routes>
+          
            
            </main>
            <Footer />
