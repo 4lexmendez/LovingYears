@@ -1,5 +1,5 @@
 import React from 'react'
-import Note from './docs/Note.pdf'
+import NOTE from './docs/NOTE.pdf'
 
 
 
@@ -8,9 +8,10 @@ export const Home = () => {
     <> 
    
     <div>
-      It has been 5 years so far and everyday, 
+      It has been 5 years so far & everyday, 
       <br />
-      whether dark & gloomy or shiny & delightful
+      whether dark & gloomy 
+      <br/>or shiny & delightful
       <br/> I'm grateful to spend w you
       <br/>
       <br/>
@@ -23,7 +24,7 @@ export const Home = () => {
 
       <button class="btn btn-outline btn-primary">
         
-      <a href={Note} download="Note.pdf"> Note </a>
+      <a href={NOTE} download="NOTE.pdf"> NOTE </a>
 
       </button>
       

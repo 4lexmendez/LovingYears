@@ -1,0 +1,85 @@
+#app { height: 10% }
+html,
+body {
+  position: relative;
+  height: 10%;
+}
+
+
+
+.swiper {
+  width: 30%;
+  height: 30%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(79, 25, 83);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+body {
+  background: rgb(162, 17, 175);
+  color: #000;
+}
+
+.swiper {
+  width: 10%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 20%;
+  width: 20%;
+}
+
+.mySwiper {
+  height: 10%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 10%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+}

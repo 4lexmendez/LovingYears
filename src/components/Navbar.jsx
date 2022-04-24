@@ -42,6 +42,10 @@ function Navbar({title}) {
               <Link to='/twentytwo' className='btn btn-outline btn-primary btn-xs rounded-btn' >
                   22'
               </Link>
+              <Link to='/test' className='btn btn-outline btn-primary btn-xs rounded-btn' >
+                  test
+              </Link>
+              
               
           </div>
 
