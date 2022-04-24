@@ -12,22 +12,22 @@ function Eighteen() {
     
     <div class="carousel carousel-end rounded-box">
   <div class="carousel-item">
-  <img src={one} width="300" height="500"/>
+  <img class= "skew-y-12" src={one} width="300" height="500"/>
   </div> 
   <div class="carousel-item">
-  <img src={two} width="300" height="500"/>
+  <img class= "skew-y-12" src={two} width="300" height="500"/>
   </div> 
   <div class="carousel-item">
-  <img src={three} width="300" height="500"/>
+  <img class= "skew-y-12" src={three} width="300" height="500"/>
   </div> 
   <div class="carousel-item">
-  <img src={four} width="300" height="500"/>
+  <img class= "skew-y-12" src={four} width="300" height="500"/>
   </div> 
   <div class="carousel-item">
-  <img src={five} width="300" height="500"/>
+  <img class= "skew-y-12" src={five} width="300" height="500"/>
   </div> 
   <div class="carousel-item">
-  <img src={six} width="300" height="500"/>
+  <img class= "skew-y-12" src={six} width="300" height="500"/>
   </div> 
 
 </div>

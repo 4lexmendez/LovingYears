@@ -17,43 +17,44 @@ function Nineteen() {
   return  (
     <main> 
     <div>
+      
     
     <div class="carousel carousel-end rounded-box">
   <div class="carousel-item">
-  <img src={one} width="220" height="200"/>
+  <img class = "-skew-y-12" src={one} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={two} width="220" height="200"/>
+  <img class = "-skew-y-12" src={two} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={three} width="220" height="200"/>
+  <img class = "-skew-y-12" src={three} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={four} width="220" height="200"/>
+  <img class = "-skew-y-12" src={four} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={five} width="220" height="200"/>
+  <img class = "-skew-y-12" src={five} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={six} width="220" height="200"/>
+  <img class = "-skew-y-12" src={six} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={seven} width="220" height="200"/>
+  <img class = "-skew-y-12" src={seven} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={eight} width="220" height="200"/>
+  <img class = "-skew-y-12" src={eight} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={nine} width="220" height="200"/>
+  <img class = "-skew-y-12" src={nine} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={ten} width="220" height="200"/>
+  <img class = "-skew-y-12" src={ten} width="220" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img src={eleven} width="220" height="200"/>
+  <img class = "-skew-y-12" src={eleven} width="220" height="200"/>
   </div>
   <div class="carousel-item">
-  <img src={twelve} width="220" height="200"/>
+  <img class = "-skew-y-12" src={twelve} width="220" height="200"/>
   </div>  
   
 

@@ -7,7 +7,9 @@ import "./styles.css"
 export const Home = () => {
   return (
     <> 
-   
+    
+    <div class="w-15 h-15 p-1 bg-cyan-600 rounded-md animate-ping">A Small Token Of Love</div>
+
     <div className="homeDiv">
       It has been 5 years so far & everyday, 
       <br />
@@ -25,11 +27,14 @@ export const Home = () => {
         </p>
         <br/>
 
-      <button class="btn btn-outline btn-primary">
-        
-      <a href={NOTE} download="NOTE.pdf"> NOTE </a>
 
-      </button>
+        <div class="w-20 h-10 p-2 bg-cyan-600 rounded-md animate-bounce">
+        
+      <a href={NOTE} download="NOTE.pdf">NOTE</a>
+      
+        </div>
+
+      
       </div>
       
 
