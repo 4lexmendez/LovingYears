@@ -14,6 +14,7 @@ function Footer() {
        
         <Social />
         <p>Copyright &copy; {footerYear} All rights reserved</p>
+        <p>Created by @4lexmendez</p>
 
     </div>
     </footer>
