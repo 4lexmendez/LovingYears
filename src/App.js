@@ -7,7 +7,6 @@ import Twentyone from './pages/Twentyone'
 import Twentytwo from './pages/Twentytwo'
 import NotFound from './pages/NotFound'
 import Home from './pages/Home'
-import Test from './pages/Test'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Soundbar from './components/Soundbar'
@@ -50,7 +49,7 @@ function App() {
              <Route path='/twenty' element={<Twenty />} />
              <Route path='/twentyone' element={<Twentyone />} />
              <Route path='/twentytwo' element={<Twentytwo />} />
-             <Route path='/test' element={<Test />} />
+             
 
             
            </Routes>
