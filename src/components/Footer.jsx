@@ -8,7 +8,7 @@ function Footer() {
 
 
   return (
-    <footer className='footer p-10 bg-primary text-primary-content footer-center'>
+    <footer className='footer p-0 bg-primary text-primary-content footer-center'>
     
     <div>
        

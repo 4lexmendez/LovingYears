@@ -1,5 +1,5 @@
 import React from 'react'
-import NOTE from './docs/NOTE.pdf'
+import NOTE from './NOTE.pdf'
 import "./styles.css"
 
 

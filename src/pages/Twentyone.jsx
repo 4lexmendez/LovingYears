@@ -20,40 +20,40 @@ function Twentyone() {
     
     <div class="carousel carousel-end rounded-box">
   <div class="carousel-item">
-  <img class="-skew-y-12" src={one} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={one} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={two} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={two} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={three} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={three} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={four} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={four} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={five} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={five} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={six} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={six} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={seven} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={seven} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={eight} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={eight} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={nine} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={nine} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={ten} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={ten} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={eleven} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={eleven} width="300" height="200"/>
   </div> 
   <div class="carousel-item">
-  <img class="-skew-y-12" src={twelve} width="300" height="200"/>
+  <img class="-skew-y-12" alt="" src={twelve} width="300" height="200"/>
   </div> 
 
   
