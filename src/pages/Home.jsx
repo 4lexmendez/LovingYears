@@ -30,7 +30,8 @@ export const Home = () => {
 
         <div class="w-20 h-10 p-2 bg-cyan-600 rounded-md animate-bounce">
         
-      <a href={NOTE} download="NOTE.pdf">NOTE</a>
+      
+      <a href={NOTE} className="menuPage" without rel="noopener noreferrer" target="_blank" >NOTE</a>
       
         </div>
 
