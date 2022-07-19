@@ -30,7 +30,6 @@ function App() {
          <Navbar />
          <div className="soundBar">
            <Soundbar />
-
            </div>
            
           

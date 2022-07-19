@@ -8,6 +8,9 @@
 
   .soundBar {
     color: rgb(202, 0, 0);
+    
+
+    
   }
 
 
@@ -131,7 +134,7 @@
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #5be6f5;
+    background: #ee08d0;
     bottom: 1px;
     left: 0;
     z-index: -1;

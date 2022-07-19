@@ -3,6 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
+import { GiSelfLove } from "react-icons/gi";
+
 
 
 
@@ -31,7 +33,7 @@ const Bar = () => {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <p>logo</p>
+          <p className="soundBar">Loving Years</p>
           
           
         </Navbar.Brand>
@@ -45,13 +47,10 @@ const Bar = () => {
           }}
         >
          
-          <span></span>
-          <span></span>
-          <span></span>
+          <GiSelfLove className="soundBar"/>
         </Navbar.Toggle>
         
-        <br/>
-        
+      
 
         
 
@@ -61,41 +60,72 @@ const Bar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-               Home
+              <Nav.Link as={Link} to="/seventeen" onClick={() => updateExpanded(false)}>
+               '17
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/eighteen"
                 onClick={() => updateExpanded(false)}
               >
-                 About
+                 '18
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contact"
+                to="/nineteen"
                 onClick={() => updateExpanded(false)}
               >
                {" "}
-                Contact
+                '19
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/work"
+                to="/twenty"
                 onClick={() => updateExpanded(false)}
               >
-                 Work 
+               {" "}
+                '20'
               </Nav.Link>
             </Nav.Item>
+
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/twentyone"
+                onClick={() => updateExpanded(false)}
+              >
+               {" "}
+                '21
+              </Nav.Link>
+            </Nav.Item>
+
+
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/twentytwo"
+                onClick={() => updateExpanded(false)}
+              >
+               {" "}
+                '22
+              </Nav.Link>
+            </Nav.Item>
+
+
+            
+
+           
 
             
 
