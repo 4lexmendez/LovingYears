@@ -4,6 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { GiSelfLove } from "react-icons/gi";
+import { BiChevronDown } from "react-icons/bi";
+import Soundbar from '../components/Soundbar'
+
+
 
 
 
@@ -33,9 +37,11 @@ const Bar = () => {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <p className="soundBar">Loving Years</p>
+          <div className="soundBar">
           
+           Loving Years</div>
           
+           
         </Navbar.Brand>
         <br/>
 
@@ -47,7 +53,10 @@ const Bar = () => {
           }}
         >
          
-          <GiSelfLove className="soundBar"/>
+          
+          <span> <GiSelfLove className="soundBar"/></span>
+          <span><GiSelfLove className="soundBar"/></span>
+          <span><GiSelfLove className="soundBar"/></span>
         </Navbar.Toggle>
         
       
