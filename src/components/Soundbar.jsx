@@ -9,7 +9,7 @@ const Box = styled.div`
 
   position: relative;
   left: 4em;
-  top: 6rem;
+  top: 5rem;
   z-index: 10;
 
   & > *:nth-child(1) {
@@ -30,7 +30,7 @@ const Box = styled.div`
 
   ${mediaQueries(40)`
       left:1rem;
-top:10rem;
+top:5.5rem;
 
   `};
 `;

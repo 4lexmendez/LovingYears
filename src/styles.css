@@ -7,8 +7,16 @@
   }
 
   .soundBar {
-    color: rgb(202, 0, 0);
+    color: rgb(238, 235, 19);
         
+  }
+  .hearts{
+    color: hsl(var(--pf))!important;
+  }
+
+  .ly {
+    
+    color: white;
   }
  
 
@@ -25,7 +33,7 @@
   
   .navbar {
     position: fixed !important;
-    background-color: #dcdcdca9 !important;
+    background-color: hsl(var(--b3)) !important;
     transition: all 0.3s ease-out 0s !important;
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
@@ -90,7 +98,7 @@
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #7218e1 !important;
+      background-color: hsl(var(--b3)) !important;
       
     }
     .navbar-nav .nav-item a::after {
@@ -102,7 +110,7 @@
   
  
   .navbar-nav .nav-link {
-    color: rgb(239, 239, 239) !important;
+    color: hsl(var(--pf))!important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
@@ -129,19 +137,7 @@
     z-index: 1;
   }
   
-  .navbar-nav .nav-item a::after {
-    content: "";
-    position: relative;
-    display: block;
-    height: 5px;
-    width: 0;
-    border-radius: 16px;
-    background: #ee08d0;
-    bottom: 1px;
-    left: 0;
-    z-index: -1;
-    transition: all 0.3s ease-out 0s;
-  }
+ 
   
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
@@ -149,3 +145,11 @@
   
   
 
+  img {
+    
+    float: left;
+    width:  100%;
+    height: 60%;
+    object-fit: cover;
+    
+}

@@ -37,7 +37,7 @@ const Bar = () => {
     >
       <Container >
         <Navbar.Brand href="/" className="d-flex">
-          <div className="soundBar">
+          <div className="ly">
           
            Loving Years</div>
           
@@ -54,9 +54,9 @@ const Bar = () => {
         >
          
           
-          <span> <GiSelfLove className="soundBar"/></span>
-          <span><GiSelfLove className="soundBar"/></span>
-          <span><GiSelfLove className="soundBar"/></span>
+          <span> <GiSelfLove className="hearts"/></span>
+          <span><GiSelfLove className="hearts"/></span>
+          <span><GiSelfLove className="hearts"/></span>
         </Navbar.Toggle>
         
       

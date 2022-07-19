@@ -19,6 +19,7 @@ function Seventeen() {
   return  (
     <main> 
     <div  >
+      <br/><br/><br/><br/>
    
       
 
@@ -154,10 +155,10 @@ function Seventeen() {
 
 
 
-    <div class="carousel-item active float-left w-full">
+    <div class="carousel-item active float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-        class="block w-full"
+        src={one}
+        class="block "
         alt="Wild Landscape"
       />
     </div>
@@ -166,10 +167,10 @@ function Seventeen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={nine}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -177,28 +178,28 @@ function Seventeen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={three}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={seven}
+        class="block "
         alt="Camera"
       />
     </div>
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={five}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
@@ -207,33 +208,10 @@ function Seventeen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-
-
-   
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={six}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -243,10 +221,33 @@ function Seventeen() {
 
    
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={seven}
+        class="block "
+        alt="Exotic Fruits"
+      />
+    </div>
+
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={eight}
+        class="block "
+        alt="Camera"
+      />
+    </div>
+
+
+
+
+   
+
+    <div class="carousel-item float-left ">
+      <img
+        src={nine}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
@@ -254,10 +255,10 @@ function Seventeen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={ten}
+        class="block "
         alt="Camera"
       />
     </div>
