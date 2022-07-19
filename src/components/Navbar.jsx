@@ -1,72 +1,113 @@
-import {FcLike} from 'react-icons/fc'
-import {Link} from 'react-router-dom'
-import PropTypes from 'prop-types'
+import React, { useState } from 'react'
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 
 
 
+const Bar = () => {
+
+    const [expand, updateExpanded] = useState(false);
+    const [navColour, updateNavbar] = useState(false);
+
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
+  }
+
+  window.addEventListener("scroll", scrollHandler);
 
 
-
-function Navbar({title}) {
   return (
-  <nav className= 'navbar mb-12 shadow-lg bg-neutral text-neutral-content'>
-      <div className = 'container mx-auto'>
-      <div className="flex-none px-2 mx-2">
-          <FcLike className='inline pr-2 text-3xl' />
-           <Link to='/' className='text-lg font-bold align-middle'>
-          {title}
-          </Link>
-          <FcLike className='inline pr-2 text-3xl' />
+    <Navbar
+      expanded={expand}
+      fixed="top"
+      expand="md"
+      className={navColour ? "sticky" : "navbar"}
+    >
+      <Container >
+        <Navbar.Brand href="/" className="d-flex">
+          <p>logo</p>
           
-
-      </div>
-      
-      <div className="flex-1 px-2 mx-2 gap-10">
-          <div className='flex justify-end gap-2'>
-              <Link to='/' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  Home
-              </Link>
-              <Link to='/seventeen' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  17'
-              </Link>
-              <Link to='/eighteen' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  18'
-              </Link>
-              <Link to='/nineteen' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  19'
-              </Link>
-              <Link to='/twenty' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  20'
-              </Link>
-              <Link to='/twentyone' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  21'
-              </Link>
-              <Link to='/twentytwo' className='btn btn-outline btn-primary btn-xs rounded-btn' >
-                  22'
-              </Link>
-              
-              
-              
-              
-          </div>
           
+        </Navbar.Brand>
+        <br/>
 
-      </div>
-      
+        
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => {
+            updateExpanded(expand ? false : "expanded");
+          }}
+        >
+         
+          <span></span>
+          <span></span>
+          <span></span>
+        </Navbar.Toggle>
+        
+        <br/>
+        
 
-      </div>
-      
-      
+        
 
-  </nav>
-  )
+
+
+
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto" defaultActiveKey="#home">
+            <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+               Home
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
+                 About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+               {" "}
+                Contact
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/work"
+                onClick={() => updateExpanded(false)}
+              >
+                 Work 
+              </Nav.Link>
+            </Nav.Item>
+
+            
+
+
+            
+
+            
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-Navbar.defaultProps = {
-    title: 'Loving Years'
-}
-Navbar.propTypes = {
-    title: PropTypes.string
-}
-
-export default Navbar
+export default Bar;

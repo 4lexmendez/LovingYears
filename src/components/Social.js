@@ -13,7 +13,7 @@ import {
 
 export default function SocialFollow() {
   return (
-    
+    <div >
         
       
 
@@ -47,6 +47,7 @@ export default function SocialFollow() {
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
 
+      </div>
       </div>
      
     );

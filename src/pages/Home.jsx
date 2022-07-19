@@ -1,6 +1,6 @@
 import React from 'react'
 import NOTE from './NOTE.pdf'
-import "./styles.css"
+
 
 
 

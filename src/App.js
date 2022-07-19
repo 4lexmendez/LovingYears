@@ -11,6 +11,9 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Soundbar from './components/Soundbar'
 import "./styles.css"
+import purple from "./purple.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
+import 'tw-elements';
 
 
 
@@ -21,7 +24,7 @@ function App() {
     <Router>
      
       
-     
+     <div style={{ backgroundImage: `url(${purple})` }}>
        <div className='flex flex-col justify-between
        h-screen'>
          <Navbar />
@@ -61,6 +64,7 @@ function App() {
 
 
            
+      </div>
       </div>
     </Router>
    
