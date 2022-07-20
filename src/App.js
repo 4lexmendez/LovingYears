@@ -25,21 +25,14 @@ function App() {
      
       
      <div style={{ backgroundImage: `url(${purple})` }}>
-       <div className='flex flex-col justify-between
-       h-screen'>
-         <Navbar />
-         <div className="soundBar">
-           <Soundbar />
+       <div className='flex flex-col justify-between h-screen'>
+            <Navbar />
+          <div className="soundBar">
+            <Soundbar />
            </div>
            
-          
-         
-         
-         
-         
-  
+    
          <main className='continer mx-auto px-3 pb-12'>
-           
            <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/home' element={<Home />} />
@@ -51,20 +44,17 @@ function App() {
              <Route path='/twenty' element={<Twenty />} />
              <Route path='/twentyone' element={<Twentyone />} />
              <Route path='/twentytwo' element={<Twentytwo />} />
-             
-
-            
            </Routes>
-          
-           
            </main>
+
+           
            <Footer />
            
 
 
            
-      </div>
-      </div>
+        </div>
+        </div>
     </Router>
    
   )

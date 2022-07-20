@@ -9,7 +9,7 @@ const Box = styled.div`
 
   position: relative;
   left: 4em;
-  top: 5rem;
+  top: 5.5rem;
   z-index: 10;
 
   & > *:nth-child(1) {
