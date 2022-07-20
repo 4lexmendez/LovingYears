@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <> 
     
-    <div class="w-15 h-15 p-1 bg-cyan-600 rounded-md animate-ping">A Small Token Of Love</div>
+    <div class="w-15 h-15 p-1 bg-pink-600 rounded-md animate-ping">A Small Token Of Love</div>
 
     <div className="homeDiv">
       It has been 5 years so far & everyday, 
@@ -28,10 +28,10 @@ export const Home = () => {
         <br/>
 
 
-        <div class="w-20 h-10 p-2 bg-cyan-600 rounded-md animate-bounce">
+        <div class="w-20 h-10 p-2 bg-pink-600 rounded-md animate-bounce">
         
       
-      <a href={NOTE} className="menuPage" without rel="noopener noreferrer" target="_blank" >NOTE</a>
+      <a href={NOTE} className="homeDiv" without rel="noopener noreferrer" target="_blank" >NOTE</a>
       
         </div>
 

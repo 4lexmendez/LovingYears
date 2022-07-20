@@ -1,23 +1,19 @@
 import one from './LYP/nine/one.jpeg'
-import two from './LYP/nine/two.jpeg'
 import three from './LYP/nine/three.jpeg'
 import four from './LYP/nine/four.jpeg'
-import five from './LYP/nine/five.jpeg'
 import six from './LYP/nine/six.jpeg'
-import seven from './LYP/nine/seven.jpeg'
 import eight from './LYP/nine/eight.jpeg'
-import nine from './LYP/nine/nine.jpeg'
 import ten from './LYP/nine/ten.jpeg'
-import eleven from './LYP/nine/eleven.jpeg'
 import twelve from './LYP/nine/twelve.jpeg'
 
 
 
 
-function Nineteen() {
+function Nineten() {
   return  (
     <main> 
     <div  >
+      <br/><br/><br/><br/>
    
       
 
@@ -95,41 +91,6 @@ function Nineteen() {
 
 
 
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="7"
-      aria-label="Slide 8"
-    ></button>
-
-
-    
-
-
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="8"
-      aria-label="Slide 9"
-    ></button>
-
-
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="9"
-      aria-label="Slide 10"
-    ></button>
-
-
-    
-
-
-
-
-
-
-
   </div>
 
 
@@ -153,10 +114,10 @@ function Nineteen() {
 
 
 
-    <div class="carousel-item active float-left w-full">
+    <div class="carousel-item active float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-        class="block w-full"
+        src={one}
+        class="block "
         alt="Wild Landscape"
       />
     </div>
@@ -165,51 +126,24 @@ function Nineteen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+   
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={three}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -219,21 +153,27 @@ function Nineteen() {
 
    
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={four}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
 
 
 
-    <div class="carousel-item float-left w-full">
+   
+
+
+
+   
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
+        src={six}
+        class="block "
+        alt="Exotic Fruits"
       />
     </div>
 
@@ -242,21 +182,36 @@ function Nineteen() {
 
    
 
-    <div class="carousel-item float-left w-full">
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
+        src={eight}
+        class="block "
+        alt="Camera"
       />
     </div>
 
 
 
+    
 
-    <div class="carousel-item float-left w-full">
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={ten}
+        class="block "
+        alt="Camera"
+      />
+    </div>
+
+
+    
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={twelve}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -306,7 +261,7 @@ function Nineteen() {
   )
 }
 
-export default Nineteen
+export default Nineten
 
 
 

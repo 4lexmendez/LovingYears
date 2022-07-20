@@ -15,6 +15,7 @@ function Twenty() {
   return  (
     <main> 
     <div  >
+      <br/><br/><br/><br/>
    
       
 
@@ -92,31 +93,9 @@ function Twenty() {
 
 
 
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="7"
-      aria-label="Slide 8"
-    ></button>
 
 
-    
-
-
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="8"
-      aria-label="Slide 9"
-    ></button>
-
-
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="9"
-      aria-label="Slide 10"
-    ></button>
+  
 
 
     
@@ -150,63 +129,19 @@ function Twenty() {
 
 
 
-    <div class="carousel-item active float-left w-full">
+    <div class="carousel-item active float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-        class="block w-full"
+        src={one}
+        class="block "
         alt="Wild Landscape"
       />
     </div>
 
 
-
-
-
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={two}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -216,20 +151,55 @@ function Twenty() {
 
    
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={three}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
 
 
 
-    <div class="carousel-item float-left w-full">
+
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={four}
+        class="block "
+        alt="Camera"
+      />
+    </div>
+
+
+
+
+
+   
+
+
+
+
+
+    
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={five}
+        class="block "
+        alt="Exotic Fruits"
+      />
+    </div>
+
+
+
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={six}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -239,25 +209,22 @@ function Twenty() {
 
    
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={seven}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
 
 
 
+   
 
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
 
+
+
+    
 
 
 

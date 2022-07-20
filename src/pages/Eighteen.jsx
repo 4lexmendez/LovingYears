@@ -10,6 +10,7 @@ function Eighteen() {
   return  (
     <main> 
     <div  >
+      <br/><br/><br/><br/>
    
       
 
@@ -74,44 +75,23 @@ function Eighteen() {
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
       aria-label="Slide 6"
-    ></button>
+></button>
 
 
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="6"
-      aria-label="Slide 7"
-    ></button>
+  
 
 
 
 
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="7"
-      aria-label="Slide 8"
-    ></button>
 
 
     
 
 
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="8"
-      aria-label="Slide 9"
-    ></button>
+   
 
 
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="9"
-      aria-label="Slide 10"
-    ></button>
+
 
 
     
@@ -145,10 +125,10 @@ function Eighteen() {
 
 
 
-    <div class="carousel-item active float-left w-full">
+    <div class="carousel-item active float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-        class="block w-full"
+        src={six}
+        class="block "
         alt="Wild Landscape"
       />
     </div>
@@ -157,10 +137,10 @@ function Eighteen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={five}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -168,76 +148,28 @@ function Eighteen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={three}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={four}
+        class="block "
         alt="Camera"
       />
     </div>
 
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-
-
-   
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-
-
-   
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={one}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
@@ -245,20 +177,14 @@ function Eighteen() {
 
 
 
-    <div class="carousel-item float-left w-full">
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
+        src={two}
+        class="block "
+        alt="Exotic Fruits"
       />
     </div>
-
-
-
-
-    
-
-
 
 
   </div>
@@ -299,3 +225,9 @@ function Eighteen() {
 }
 
 export default Eighteen
+
+
+
+
+
+

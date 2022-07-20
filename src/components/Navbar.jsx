@@ -39,7 +39,9 @@ const Bar = () => {
         <Navbar.Brand href="/" className="d-flex">
           <div className="ly">
           
-           Loving Years</div>
+           Loving Years
+           <GiSelfLove className="heart"/>
+           </div>
           
            
         </Navbar.Brand>

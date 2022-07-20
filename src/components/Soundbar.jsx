@@ -30,7 +30,7 @@ const Box = styled.div`
 
   ${mediaQueries(40)`
       left:1rem;
-top:5.5rem;
+top:7rem;
 
   `};
 `;

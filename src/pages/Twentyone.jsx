@@ -4,12 +4,11 @@ import three from './LYP/twentyone/three.jpeg'
 import four from './LYP/twentyone/four.jpeg'
 import five from './LYP/twentyone/five.jpeg'
 import six from './LYP/twentyone/six.jpeg'
-import seven from './LYP/twentyone/seven.jpeg'
 import eight from './LYP/twentyone/eight.jpeg'
 import nine from './LYP/twentyone/nine.jpeg'
 import ten from './LYP/twentyone/ten.jpeg'
 import eleven from './LYP/twentyone/eleven.jpeg'
-import twelve from './LYP/twentyone/twelve.jpeg'
+
 
 
 
@@ -18,6 +17,7 @@ function Twentyone() {
   return  (
     <main> 
     <div  >
+      <br/><br/><br/><br/>
    
       
 
@@ -94,7 +94,6 @@ function Twentyone() {
 
 
 
-
 <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
@@ -103,10 +102,7 @@ function Twentyone() {
     ></button>
 
 
-    
-
-
-    <button
+<button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="8"
@@ -120,6 +116,19 @@ function Twentyone() {
       data-bs-slide-to="9"
       aria-label="Slide 10"
     ></button>
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
     
@@ -153,51 +162,40 @@ function Twentyone() {
 
 
 
-    <div class="carousel-item active float-left w-full">
+    <div class="carousel-item active float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
-        class="block w-full"
+        src={one}
+        class="block "
         alt="Wild Landscape"
       />
     </div>
 
 
-
-
-
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
-
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={two}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
 
 
-    <div class="carousel-item float-left w-full">
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
+        src={three}
+        class="block "
+        alt="Exotic Fruits"
       />
     </div>
 
 
-    <div class="carousel-item float-left w-full">
+
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={four}
+        class="block "
         alt="Exotic Fruits"
       />
     </div>
@@ -206,10 +204,69 @@ function Twentyone() {
 
 
 
-    <div class="carousel-item float-left w-full">
+   
+
+
+
+
+
+    
+
+
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
+        src={five}
+        class="block "
+        alt="Exotic Fruits"
+      />
+    </div>
+
+
+
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={six}
+        class="block "
+        alt="Camera"
+      />
+    </div>
+
+
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={ten}
+        class="block "
+        alt="Camera"
+      />
+    </div>
+
+
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={eleven}
+        class="block "
+        alt="Camera"
+      />
+    </div>
+
+
+
+   
+
+    
+
+
+
+    <div class="carousel-item float-left ">
+      <img
+        src={eight}
+        class="block "
         alt="Camera"
       />
     </div>
@@ -219,21 +276,11 @@ function Twentyone() {
 
    
 
-    <div class="carousel-item float-left w-full">
+    <div class="carousel-item float-left ">
       <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
+        src={nine}
+        class="block "
         alt="Exotic Fruits"
-      />
-    </div>
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
       />
     </div>
 
@@ -242,24 +289,8 @@ function Twentyone() {
 
    
 
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
-        class="block w-full"
-        alt="Exotic Fruits"
-      />
-    </div>
 
-
-
-
-    <div class="carousel-item float-left w-full">
-      <img
-        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
-        class="block w-full"
-        alt="Camera"
-      />
-    </div>
+    
 
 
 

@@ -1,7 +1,4 @@
 import one from './LYP/seven/one.jpeg'
-import two from './LYP/seven/two.jpeg'
-import three from './LYP/seven/three.jpeg'
-import four from './LYP/seven/four.jpeg'
 import five from './LYP/seven/five.jpeg'
 import six from './LYP/seven/six.jpeg'
 import seven from './LYP/seven/seven.jpeg'
@@ -97,31 +94,9 @@ function Seventeen() {
 
 
 
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="7"
-      aria-label="Slide 8"
-    ></button>
 
 
-    
-
-
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="8"
-      aria-label="Slide 9"
-    ></button>
-
-
-<button
-      type="button"
-      data-bs-target="#carouselExampleCrossfade"
-      data-bs-slide-to="9"
-      aria-label="Slide 10"
-    ></button>
+  
 
 
     
@@ -167,33 +142,13 @@ function Seventeen() {
 
 
 
-    <div class="carousel-item float-left ">
-      <img
-        src={nine}
-        class="block "
-        alt="Camera"
-      />
-    </div>
+   
 
 
 
 
-    <div class="carousel-item float-left ">
-      <img
-        src={three}
-        class="block "
-        alt="Exotic Fruits"
-      />
-    </div>
 
-
-    <div class="carousel-item float-left ">
-      <img
-        src={seven}
-        class="block "
-        alt="Camera"
-      />
-    </div>
+    
 
 
     <div class="carousel-item float-left ">
