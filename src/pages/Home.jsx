@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <> 
     
-    <section class="w-15 h-15 p-1 bg-pink-600 rounded-md animate-ping">
+    <section className="w-15 h-15 p-1 bg-pink-600 rounded-md animate-ping">
       A Small Token Of Love
     </section>
 
@@ -32,8 +32,8 @@ export const Home = () => {
         <br/>
 
 
-        <article class="w-20 h-10 p-2 bg-pink-600 rounded-md animate-bounce"> 
-          <a href={NOTE} className="homeDiv" without rel="noopener noreferrer" target="_blank" >
+        <article className="w-20 h-10 p-2 bg-pink-600 rounded-md animate-bounce"> 
+          <a href={NOTE} className="homeDiv" rel="noopener noreferrer" target="_blank" >
             NOTE
            </a>
         </article>

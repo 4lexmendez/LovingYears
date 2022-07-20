@@ -13,7 +13,7 @@ const footerYear = new Date().getFullYear()
 
   return (
     <footer className='footer p-0  text-primary-content footer-center'>  
-    <main class="flex flex-row space-x-4">
+    <main className="flex flex-row space-x-4">
   
 
 
