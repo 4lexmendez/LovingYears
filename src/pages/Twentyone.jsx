@@ -16,10 +16,9 @@ import eleven from './LYP/twentyone/eleven.jpeg'
 function Twentyone() {
   return  (
     <main> 
-    <div  >
+    <div>
       <br/><br/><br/><br/>
    
-      
 
     <div
   id="carouselExampleCrossfade"
@@ -60,7 +59,7 @@ function Twentyone() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="3"
@@ -77,7 +76,7 @@ function Twentyone() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
@@ -94,7 +93,7 @@ function Twentyone() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="7"
@@ -102,7 +101,7 @@ function Twentyone() {
     ></button>
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="8"
@@ -110,7 +109,7 @@ function Twentyone() {
     ></button>
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="9"
@@ -119,54 +118,17 @@ function Twentyone() {
 
 
 
-
-
-
-
-
-
-
-
-
-  
-
-
-    
-
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
   <div class="carousel-inner relative w-full overflow-hidden">
 
-
-
-
     <div class="carousel-item active float-left ">
       <img
         src={one}
         class="block "
-        alt="Wild Landscape"
+        alt=""
       />
     </div>
 
@@ -175,7 +137,7 @@ function Twentyone() {
       <img
         src={two}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -185,7 +147,7 @@ function Twentyone() {
       <img
         src={three}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -196,28 +158,17 @@ function Twentyone() {
       <img
         src={four}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
-
-
-
-
-   
-
-
-
-
-
-    
 
 
     <div class="carousel-item float-left ">
       <img
         src={five}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -229,7 +180,7 @@ function Twentyone() {
       <img
         src={six}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -240,7 +191,7 @@ function Twentyone() {
       <img
         src={ten}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -251,62 +202,31 @@ function Twentyone() {
       <img
         src={eleven}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
-
-
-
-   
-
-    
-
-
 
     <div class="carousel-item float-left ">
       <img
         src={eight}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
 
-
-
-   
 
     <div class="carousel-item float-left ">
       <img
         src={nine}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
 
 
-
-   
-
-
-    
-
-
-
-
-    
-
-
-
-
   </div>
-
-
-
-
-
-
 
 
   <button

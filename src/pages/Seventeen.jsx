@@ -15,7 +15,7 @@ import ten from './LYP/seven/ten.jpeg'
 function Seventeen() {
   return  (
     <main> 
-    <div  >
+    <div>
       <br/><br/><br/><br/>
    
       
@@ -24,12 +24,12 @@ function Seventeen() {
   id="carouselExampleCrossfade"
   class="carousel slide carousel-fade relative"
   data-bs-ride="carousel"
->
+    >
 
 
 
 
-
+  {/* Indicators */}
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
       type="button"
@@ -57,9 +57,7 @@ function Seventeen() {
       aria-label="Slide 3"
     ></button>
 
-
-
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="3"
@@ -76,7 +74,7 @@ function Seventeen() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
@@ -91,37 +89,12 @@ function Seventeen() {
       aria-label="Slide 7"
     ></button>
 
-
-
-
-
-
-  
-
-
-    
-
-
-
-
-
-
-
   </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+{/* Image Containers */}
 
 
 
@@ -134,53 +107,33 @@ function Seventeen() {
       <img
         src={one}
         class="block "
-        alt="Wild Landscape"
+        alt=""
       />
     </div>
-
-
-
-
-
-   
-
-
-
-
-
-    
 
 
     <div class="carousel-item float-left ">
       <img
         src={five}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
-
-
-
 
 
     <div class="carousel-item float-left ">
       <img
         src={six}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
-
-
-
-
-   
 
     <div class="carousel-item float-left ">
       <img
         src={seven}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -190,48 +143,29 @@ function Seventeen() {
       <img
         src={eight}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
-
-
-
-
-   
 
     <div class="carousel-item float-left ">
       <img
         src={nine}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
-
-
-
 
     <div class="carousel-item float-left ">
       <img
         src={ten}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
 
 
-
-    
-
-
-
-
   </div>
-
-
-
-
-
 
 
 
@@ -254,8 +188,6 @@ function Seventeen() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-  
-
 </div>
 
     

@@ -14,19 +14,14 @@ import seven from './LYP/twenty/seven.jpeg'
 function Twenty() {
   return  (
     <main> 
-    <div  >
+    <div>
       <br/><br/><br/><br/>
-   
-      
 
     <div
   id="carouselExampleCrossfade"
   class="carousel slide carousel-fade relative"
   data-bs-ride="carousel"
 >
-
-
-
 
 
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -58,7 +53,7 @@ function Twenty() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="3"
@@ -75,7 +70,7 @@ function Twenty() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
@@ -92,48 +87,16 @@ function Twenty() {
 
 
 
-
-
-
-  
-
-
-    
-
-
-
-
-
-
-
   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="carousel-inner relative w-full overflow-hidden">
-
-
-
 
     <div class="carousel-item active float-left ">
       <img
         src={one}
         class="block "
-        alt="Wild Landscape"
+        alt=""
       />
     </div>
 
@@ -142,53 +105,34 @@ function Twenty() {
       <img
         src={two}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
-
-
-
-
-   
 
     <div class="carousel-item float-left ">
       <img
         src={three}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
-
-
-
 
 
     <div class="carousel-item float-left ">
       <img
         src={four}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
-
-
-
-
-   
-
-
-
-
-
-    
 
 
     <div class="carousel-item float-left ">
       <img
         src={five}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -200,7 +144,7 @@ function Twenty() {
       <img
         src={six}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -213,32 +157,11 @@ function Twenty() {
       <img
         src={seven}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
-
-
-   
-
-
-
-
-    
-
-
-
-    
-
-
-
-
   </div>
-
-
-
-
-
 
 
 

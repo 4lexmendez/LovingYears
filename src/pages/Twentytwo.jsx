@@ -14,20 +14,14 @@ import seven from './LYP/twentytwo/seven.jpeg'
 function Twentytwo() {
   return  (
     <main> 
-    <div  >
+    <div>
       <br/><br/><br/><br/>
-   
-      
-
+  
     <div
   id="carouselExampleCrossfade"
   class="carousel slide carousel-fade relative"
   data-bs-ride="carousel"
 >
-
-
-
-
 
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
@@ -58,7 +52,7 @@ function Twentytwo() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="3"
@@ -75,7 +69,7 @@ function Twentytwo() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
@@ -91,36 +85,7 @@ function Twentytwo() {
     ></button>
 
 
-
-
-
-
-  
-
-
-    
-
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -142,7 +107,7 @@ function Twentytwo() {
       <img
         src={two}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -155,7 +120,7 @@ function Twentytwo() {
       <img
         src={three}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -166,7 +131,7 @@ function Twentytwo() {
       <img
         src={four}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -187,7 +152,7 @@ function Twentytwo() {
       <img
         src={five}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -199,7 +164,7 @@ function Twentytwo() {
       <img
         src={six}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -212,7 +177,7 @@ function Twentytwo() {
       <img
         src={seven}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 

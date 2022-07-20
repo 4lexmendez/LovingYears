@@ -9,20 +9,15 @@ import six from './LYP/eight/six.jpeg'
 function Eighteen() {
   return  (
     <main> 
-    <div  >
+    <div>
       <br/><br/><br/><br/>
    
-      
-
+    
     <div
   id="carouselExampleCrossfade"
   class="carousel slide carousel-fade relative"
   data-bs-ride="carousel"
 >
-
-
-
-
 
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
     <button
@@ -33,8 +28,6 @@ function Eighteen() {
       aria-current="true"
       aria-label="Slide 1"
     ></button>
-
-
 
     <button
       type="button"
@@ -53,7 +46,7 @@ function Eighteen() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="3"
@@ -70,53 +63,16 @@ function Eighteen() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
       aria-label="Slide 6"
-></button>
-
-
-  
-
-
-
-
-
-
-    
-
-
-   
-
-
-
-
-
-    
-
-
-
-
+    ></button>
 
 
 
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -128,7 +84,7 @@ function Eighteen() {
     <div class="carousel-item active float-left ">
       <img
         src={six}
-        class="block "
+        class=""
         alt="Wild Landscape"
       />
     </div>
@@ -140,8 +96,8 @@ function Eighteen() {
     <div class="carousel-item float-left ">
       <img
         src={five}
-        class="block "
-        alt="Camera"
+        class=""
+        alt=""
       />
     </div>
 
@@ -151,8 +107,8 @@ function Eighteen() {
     <div class="carousel-item float-left ">
       <img
         src={three}
-        class="block "
-        alt="Exotic Fruits"
+        class=""
+        alt=""
       />
     </div>
 
@@ -160,8 +116,8 @@ function Eighteen() {
     <div class="carousel-item float-left ">
       <img
         src={four}
-        class="block "
-        alt="Camera"
+        class=""
+        alt=""
       />
     </div>
 
@@ -169,8 +125,8 @@ function Eighteen() {
     <div class="carousel-item float-left ">
       <img
         src={one}
-        class="block "
-        alt="Exotic Fruits"
+        class=""
+        alt=""
       />
     </div>
 
@@ -181,19 +137,13 @@ function Eighteen() {
     <div class="carousel-item float-left ">
       <img
         src={two}
-        class="block "
-        alt="Exotic Fruits"
+        class=""
+        alt=""
       />
     </div>
 
 
   </div>
-
-
-
-
-
-
 
 
   <button

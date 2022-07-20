@@ -12,7 +12,7 @@ import twelve from './LYP/nine/twelve.jpeg'
 function Nineten() {
   return  (
     <main> 
-    <div  >
+    <div>
       <br/><br/><br/><br/>
    
       
@@ -22,9 +22,6 @@ function Nineten() {
   class="carousel slide carousel-fade relative"
   data-bs-ride="carousel"
 >
-
-
-
 
 
   <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -56,7 +53,7 @@ function Nineten() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="3"
@@ -73,7 +70,7 @@ function Nineten() {
 
 
 
-<button
+    <button
       type="button"
       data-bs-target="#carouselExampleCrossfade"
       data-bs-slide-to="5"
@@ -93,22 +90,6 @@ function Nineten() {
 
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="carousel-inner relative w-full overflow-hidden">
 
 
@@ -118,7 +99,7 @@ function Nineten() {
       <img
         src={one}
         class="block "
-        alt="Wild Landscape"
+        alt=""
       />
     </div>
 
@@ -144,7 +125,7 @@ function Nineten() {
       <img
         src={three}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -157,7 +138,7 @@ function Nineten() {
       <img
         src={four}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -173,7 +154,7 @@ function Nineten() {
       <img
         src={six}
         class="block "
-        alt="Exotic Fruits"
+        alt=""
       />
     </div>
 
@@ -187,7 +168,7 @@ function Nineten() {
       <img
         src={eight}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -200,7 +181,7 @@ function Nineten() {
       <img
         src={ten}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
@@ -212,26 +193,12 @@ function Nineten() {
       <img
         src={twelve}
         class="block "
-        alt="Camera"
+        alt=""
       />
     </div>
 
 
-
-
-    
-
-
-
-
   </div>
-
-
-
-
-
-
-
 
   <button
     class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
